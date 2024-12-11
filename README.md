@@ -1,15 +1,9 @@
 # REPOSITÓRIO DE MODELOS 3D: ACERVO DO MUSEU GILBERTO GERLACH
 
-<br>
-
 ## Objetivo
 Criar e armazenar modelos 3D do acervo histórico do museu para acesso via o site oficial.
 
-<br>
-
 ---
-
-<br><br>
 
 ## Processos
 
@@ -26,20 +20,13 @@ Criar e armazenar modelos 3D do acervo histórico do museu para acesso via o sit
 4. **Carregamento no visualizador:**
    - Conversão do modelo para os formatos `.obj` ou `.glb/.gltf` e carregamento no visualizador web usando **Three.js**.
 
-<br>
-
 ---
 
-<br><br>
-
 ## Webviewer Three.js: Passo a Passo
-
 
 ### 1. Instalar Node.js
 - Faça o download e instale o [Node.js](https://nodejs.org/).
 - Isso permitirá o uso do gerenciador de pacotes `npm`, necessário para instalar dependências.
-
-<br><br>
 
 ### 2. Instalar dependências no terminal
 - Execute os comandos abaixo para instalar os requisitos:
@@ -47,16 +34,10 @@ Criar e armazenar modelos 3D do acervo histórico do museu para acesso via o sit
 npm install --save three
 npm install --save-dev vite
 ```
-
-<br>
-
 - Com tudo instalado e os arquivos `.html` e `.js`, você pode abrir o servidor com o Vite da seguinte forma:
 ```bash
 npx vite
 ```
-
-<br>
-
 - O Vite deve retornar algo semelhante a isso:
 ```bash
   VITE v6.0.3  ready in 289 ms
@@ -66,16 +47,12 @@ npx vite
   ➜  press h + enter to show help
 ```
 
-<br><br>
-
 ### 3. Criar o arquivo HTML (`index.html`)
 Inclua o seguinte conteúdo dentro da tag `<head>` do arquivo:
 ```html
 <style>body { margin: 0; }</style>
 <script type="module" src="/main.js" defer></script>
 ```
-
-<br><br>
 
 ### 4. Criar o arquivo JavaScript (`main.js`)
 Adicione os imports necessários para carregar os modelos e configurar a cena:
@@ -87,15 +64,9 @@ import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 ```
 
-<br><br>
-
 ### 5. Estrutura básica de uma cena
 Um exemplo de código para criar uma cena simples será adicionado futuramente neste repositório.
 
-<br>
-
 ---
-
-<br>
 
 Contribuições são bem-vindas! Por favor, crie um *pull request* com melhorias ou sugestões.
