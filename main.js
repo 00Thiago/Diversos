@@ -6,12 +6,12 @@ import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
 
-console.log('Iniciando carregamento do modelo:', modelPath);
 
 
 // variável que carrega o modelo 3D com extensão definida
 const modelPath = './dunot.glb';
 
+console.log('Iniciando carregamento do modelo:', modelPath);
 
 
 // função que extrai a extensão do modelo 3D adicionado
