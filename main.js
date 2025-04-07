@@ -5,6 +5,8 @@ import { GLTFLoader } from 'https://unpkg.com/three@0.128.0/examples/jsm/loaders
 import { OBJLoader } from 'https://unpkg.com/three@0.128.0/examples/jsm/loaders/OBJLoader.js';
 import { MTLLoader } from 'https://unpkg.com/three@0.128.0/examples/jsm/loaders/MTLLoader.js';
 
+console.log('Iniciando carregamento do modelo:', modelPath);
+
 
 // variável que carrega o modelo 3D com extensão definida
 const modelPath = './dunot.glb';
