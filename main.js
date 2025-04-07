@@ -7,7 +7,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { fill } from 'three/src/extras/TextureUtils.js';
 
 // variável que carrega o modelo 3D com extensão definida
-const modelPath = './objeto.glb';
+const modelPath = './dunot.glb';
 
 
 
