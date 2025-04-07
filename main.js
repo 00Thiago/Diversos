@@ -11,7 +11,6 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 // variável que carrega o modelo 3D com extensão definida
 const modelPath = './dunot.glb';
 
-console.log('Iniciando carregamento do modelo:', modelPath);
 
 
 // função que extrai a extensão do modelo 3D adicionado
